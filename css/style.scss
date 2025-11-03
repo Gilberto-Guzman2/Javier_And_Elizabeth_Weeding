@@ -2285,28 +2285,7 @@ p.center{
 			}
 		}
 
-		&:hover{
-			@include box-shadow(none);
-
-			.hover-info{
-				@include opacity(1);
-
-				.h-lines {
-				  transform: scaleX(1);
-				}
-
-				.v-lines {
-				  transform: scaleY(1);
-				}
-
 			}
-
-			img{
-				webkit-filter: blur(4px) grayscale(80%) brightness(1.4);
-				filter: blur(4px) grayscale(80%) brightness(1.4);
-			}
-		}
-	}
 }
 
 .divider-about-us{

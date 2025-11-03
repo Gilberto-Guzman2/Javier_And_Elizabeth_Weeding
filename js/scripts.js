@@ -1023,21 +1023,9 @@ var Neela;
 
             //Rotate heart divider on mouseenter about element
             $("#about-us .element .image").on("mouseenter", function () {
-                var $elem = $(this);
-
-                if ($elem.parent().is(":first-child") && !$(">.divider-about-us", $elem.closest(".row")).hasClass("flip")) {
-                    return false;
-                }
-
-                if (!$elem.hasClass("flip")) {
-                    if ($("#about-us .element .image.flip").length) {
-                        $("#about-us .element .image").toggleClass("flip");
-                    } else {
-                        $elem.toggleClass("flip");
-                    }
-
-                    $(">.divider-about-us", $elem.closest(".row")).toggleClass("flip");
-                }
+                $(">.divider-about-us", $(this).closest(".row")).toggleClass("flip");
+            }).on("mouseleave", function () {
+                $(">.divider-about-us", $(this).closest(".row")).toggleClass("flip");
             });
 
             //Slide map info on mouseenter map_canvas
