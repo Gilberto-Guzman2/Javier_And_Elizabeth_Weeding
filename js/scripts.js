@@ -69,12 +69,12 @@ var Neela;
             /**
             * Navigation
             */
-            $_self.navigation();
+            //$_self.navigation();
 
             /**
             * Dinamically create the menu for mobile devices
             */
-            $_self.createMobileMenu();
+            //$_self.createMobileMenu();
 
             /**
             * Fit hero to screen size
@@ -374,12 +374,12 @@ var Neela;
                 $("#hero").css({minHeight: $(window).innerHeight() + "px"});
 
                 $(window).resize(function () {
-                    var padding = parseInt($("#hero").css("padding-bottom")) + 70;
+                    var padding = parseInt($("#hero").css("padding-bottom"));
                     var nextMargin = parseInt($("#hero").next("section").css("margin-top"));
                     var wHeight = $(window).innerHeight() - padding;
                     var cHeight = $("#hero >.container").height();
                     var dif;
-                    var xtraMT = -10;
+                    var xtraMT = 0; // Changed from -10 and removed conditional check
 
                     if (nextMargin < 0 && !Number.isNaN(nextMargin)) {
                         wHeight += nextMargin + padding;
@@ -387,9 +387,7 @@ var Neela;
 
                     dif = wHeight - cHeight;
 
-                    if ($(".nav-section.light").length) {
-                        xtraMT = 10;
-                    }
+                    // Removed: if ($(".nav-section.light").length) { xtraMT = 10; }
 
                     if (dif > 0 && $(".v-center").length) {
                         $("#hero >.container").css({"margin-top": (((dif) / 2) + xtraMT) + "px"});
