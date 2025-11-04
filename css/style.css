@@ -75,11 +75,11 @@
 }
 
 #the-wedding {
-  background-image: url("https://via.placeholder.com/1920x1080.png");
+  background-image: url("../images/invitation-background.jpg");
 }
 @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
   #the-wedding {
-    background-image: url("https://via.placeholder.com/1920x1080@2x.png");
+    background-image: url("../images/invitation-background@2x.jpg");
   }
 }
 
@@ -1383,8 +1383,11 @@ p.center {
   font-family: "Playfair Display", serif;
 }
 
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus,
-.nav > li > a:hover, .nav > li > a:focus,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus,
+.nav > li > a:hover,
+.nav > li > a:focus,
 .navbar-nav > li > a.active {
   background-color: transparent;
   color: #8eaeba;
@@ -1532,8 +1535,11 @@ p.center {
   display: block;
 }
 
-.light .nav .open > a, .light .nav .open > a:hover, .light .nav .open > a:focus,
-.light .nav > li > a:hover, .light .nav > li > a:focus,
+.light .nav .open > a,
+.light .nav .open > a:hover,
+.light .nav .open > a:focus,
+.light .nav > li > a:hover,
+.light .nav > li > a:focus,
 .light .navbar-nav > li > a.active {
   color: #fff;
 }
@@ -1907,7 +1913,8 @@ p.center {
   -ms-transform: scale(1.2, 1.2);
   -o-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
-  filter: grayscale(1%); /*Fix flickering on Firefox*/
+  filter: grayscale(1%);
+  /*Fix flickering on Firefox*/
 }
 
 .zs-enabled .zs-slideshow .zs-slides .zs-slide.active {
@@ -4400,7 +4407,10 @@ section.side-flowers {
   padding-bottom: 60px;
   margin-bottom: 40px;
 }
-.blog-main .post-content h3, .blog-main .post-content h4, .blog-main .post-content h5, .blog-main .post-content h6 {
+.blog-main .post-content h3,
+.blog-main .post-content h4,
+.blog-main .post-content h5,
+.blog-main .post-content h6 {
   color: #42344F;
 }
 .blog-main .post-content p {
@@ -4462,7 +4472,12 @@ section.side-flowers {
 .blog-main .post-content .fullwidth {
   width: 100%;
 }
-.blog-main h1, .blog-main h2, .blog-main h3, .blog-main h4, .blog-main h5, .blog-main h6 {
+.blog-main h1,
+.blog-main h2,
+.blog-main h3,
+.blog-main h4,
+.blog-main h5,
+.blog-main h6 {
   margin-bottom: 30px;
 }
 .blog-main h1 {
