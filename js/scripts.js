@@ -26,12 +26,12 @@ var Neela;
         contactFormSuccessMsg: contact_form_success_msg,
         sendingMail: false,
         heroFullScreen: hero_full_screen,
-        mapColor: map_color,
-        mapInitialLatitude: map_initial_latitude,
-        mapInitialLongitude: map_initial_longitude,
-        mapInitialZoom: map_initial_zoom,
-        mapMarkers: map_markers,
-        useDefaultMapStyle: use_default_map_style,
+        //mapColor: map_color,
+        //mapInitialLatitude: map_initial_latitude,
+        //mapInitialLongitude: map_initial_longitude,
+        //mapInitialZoom: map_initial_zoom,
+        //mapMarkers: map_markers,
+                //useDefaultMapStyle: use_default_map_style,
         mobMenuFlag: false,
         mobileMenuTitle: mobile_menu_title,
         onepageNav: onepage_nav,
@@ -89,7 +89,7 @@ var Neela;
             /**
             * Initialize Google Maps and populate with pin locations
             */
-            $_self.googleMap();
+            //$_self.googleMap();
 
             /**
             * Create Lightbox Gallery links
