@@ -21,8 +21,8 @@ This project is an HTML template adapted for a wedding website. It is based on t
 - Remove the timeline; jump directly to the invitation with the headline “Our love story begins!”.
 - Optionally show two locations on the same Google Map.
 - Replace the Bridesmaids and Groomsmen sections with an Itinerary (timeline-style schedule).
-- Add a Dress Code section.
-- Add a Hotels (accommodations) section.
+- Add a Dress Code section. codigo de vestimenta... imagen texto
+- Add a Hotels (accommodations) section. 
 - Replace the built-in RSVP form with Google Forms.
 - Add a gift registry link and bank account details.
 - Remove the Gallery section.
@@ -30,6 +30,18 @@ This project is an HTML template adapted for a wedding website. It is based on t
 - “Will you Attend?”: embed a Google Form that collects name, number of guests, and attendance confirmation. Provide two versions (for 1-pass and 2-pass invitations).
 - Attendance options should allow 0, 1, or 2 guests (confirm 0/1/2).
 - Update/add the event logo.
+
+
+Crea abajo de la seccion de itinerario una nueva sección que maneje los siguientes parametros
+Titulo: Codigo de Vestimenta
+Imagen: images/suits.png
+Texto: Formal - All Black <br>
+Texto: Mujeres Vestido negro <br>
+Texto:Hombres Traje negro
+
+Todo ello ocupando el mismo diseño que maneja la plantilla es decir tipografia colores etc
+
+nombre del hotel y boton
 
 ### Notes
 - If using Google Forms for RSVP, disable or remove the built-in AJAX form (`contact.php`) and embed the Forms instead.
