@@ -48,7 +48,6 @@
 
 /* #Variables
 ================================================== */
-// $color: #030303;
 $color: #030303;
 $text-color: #73777b;
 $sat-color: saturate($color, 6%);
@@ -157,7 +156,7 @@ $pattern: url('../images/neela-pattern.png');
 }
 
 #giftregistry {
-	@include background-image-retina("https://via.placeholder.com/1920x1080", 'png');
+	@include background-image-retina("../images/gift-background-img", 'jpg');
 }
 
 .page-header {
